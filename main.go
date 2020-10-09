@@ -46,4 +46,8 @@ func main() {
 	if *jsonOutput {
 		ExportBlocksAsJSON(blocks, *jsonOutputDir)
 	}
+
+	if !*exportTSDB {
+		ExportBlocks(blocks, *outputDir, *redateStart, *redateEnd)
+	}
 }

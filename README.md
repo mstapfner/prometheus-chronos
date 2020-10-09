@@ -4,7 +4,7 @@ Chronos (the personification of time) allows to manipulate raw Prometheus TSDB d
 Chronos allows : 
 - read Prometheus TSDB Data 
 - export Prometheus TSDB data directory to human-readable JSON files
-- change the timestamps (to future or past) of Prometheus TSDB data and create new Prometheus TDSB
+- change the timestamps (to the past) of Prometheus TSDB data and create new Prometheus TDSB
 - copy the Prometheus TSDB data to fill a bigger timewindows (for proper performance testing of Prometheus)
 
 Flags: 

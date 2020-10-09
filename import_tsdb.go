@@ -30,8 +30,8 @@ func ImportTSDB(blockPath string) (Block, error) {
 	newBlock.NumSamples = metaInfo.Stats.NumSamples
 	newBlock.NumTombstones = metaInfo.Stats.NumTombstones
 
-	newBlock.MaxTime = metaInfo.MaxTime
-	newBlock.MinTime = metaInfo.MinTime
+	newBlock.EndingTime = metaInfo.MaxTime
+	newBlock.StartingTime = metaInfo.MinTime
 
 	newBlock.ULID = metaInfo.ULID.String()
 

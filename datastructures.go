@@ -6,8 +6,8 @@ import (
 )
 
 type Block struct {
-	MinTime int64 `json:"min_time"`
-	MaxTime int64 `json:"max_time"`
+	StartingTime int64 `json:"starting_time"`
+	EndingTime   int64 `json:"ending_time"`
 
 	ULID string `json:"ulid"`
 
