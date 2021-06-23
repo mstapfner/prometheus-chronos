@@ -1,5 +1,7 @@
 # Chronos
-Chronos (the personification of time) allows to manipulate raw Prometheus TSDB data.
+Chronos allows to manipulate raw Prometheus TSDB data.
+
+Warning: software quality leaves much to be desired!
 
 Chronos allows : 
 - read Prometheus TSDB Data 
